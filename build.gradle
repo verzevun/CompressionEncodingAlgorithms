@@ -34,9 +34,9 @@ javafx {
 }
 
 dependencies {
+    implementation "com.github.albfernandez:juniversalchardet:2.4.0"
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
-    implementation 'javax.mail:mail:1.4.7'
 }
 
 test {
